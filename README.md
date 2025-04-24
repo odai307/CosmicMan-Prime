@@ -1,7 +1,7 @@
 # CosmicMan Prime: Enhancing Activation Strategies for Improved Text-to-Image Synthesis
 <img src="./assets/1.png" width="96%" height="96%">
 
-[Shikai Li](mailto:lishikai@pjlab.org.cn), [Jianglin Fu](mailto:fujianglin@pjlab.org.cn), [Kaiyuan Liu](mailto:1154864382@mail.dlut.edu.cn), [Wentao Wang](mailto:wangwentao@pjlab.org.cn), [Kwan-Yee Lin](mailto:linjunyi9335@gmail.com), [Wayne Wu](mailto:wuwenyan0503@gmail.com) <br>
+[Gabriel Odai Afotey](mailto:gabrielafotey@gmail.com) <br>
 **[[Video Demo]](https://www.youtube.com/watch?v=CsZKA27tQDA)** | **[[Project Page]](https://cosmicman-cvpr2024.github.io/)** | **[[Paper]](https://arxiv.org/abs/2404.01294)** | **[[Huggingface Gradio]](https://huggingface.co/spaces/cosmicman/CosmicMan-SDXL)**  
 
 **Abstract:** I present CosmicMan Prime, a text-to-image foundation model designed to enhance image
