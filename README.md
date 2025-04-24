@@ -2,7 +2,7 @@
 <img src="./assets/1.png" width="96%" height="96%">
 
 [Gabriel Odai Afotey](mailto:gabrielafotey@gmail.com) <br>
-**[[Video Demo]](https://www.youtube.com/watch?v=CsZKA27tQDA)** | **[[Project Page]](https://cosmicman-cvpr2024.github.io/)** | **[[Paper]](https://arxiv.org/abs/2404.01294)** | **[[Huggingface Gradio]](https://huggingface.co/spaces/cosmicman/CosmicMan-SDXL)**  
+**[[Video Demo]](https://www.youtube.com/watch?v=CsZKA27tQDA)** | **[[Project Page]](https://cosmicman-cvpr2024.github.io/)** | **[[Paper]](./Cosmic-Man-Prime.pdf)** | **[[Huggingface Gradio]](https://huggingface.co/spaces/cosmicman/CosmicMan-SDXL)**  
 
 **Abstract:** I present CosmicMan Prime, a text-to-image foundation model designed to enhance image
 generation quality through refined activation strategies. Unlike traditional models that struggle
