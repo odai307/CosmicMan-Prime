@@ -1,4 +1,4 @@
-# CosmicMan: A Text-to-Image Foundation Model for Humans
+# CosmicMan Prime: Enhancing Activation Strategies for Improved Text-to-Image Synthesis
 <img src="./assets/1.png" width="96%" height="96%">
 
 [Shikai Li](mailto:lishikai@pjlab.org.cn), [Jianglin Fu](mailto:fujianglin@pjlab.org.cn), [Kaiyuan Liu](mailto:1154864382@mail.dlut.edu.cn), [Wentao Wang](mailto:wangwentao@pjlab.org.cn), [Kwan-Yee Lin](mailto:linjunyi9335@gmail.com), [Wayne Wu](mailto:wuwenyan0503@gmail.com) <br>
