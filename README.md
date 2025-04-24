@@ -4,8 +4,24 @@
 [Shikai Li](mailto:lishikai@pjlab.org.cn), [Jianglin Fu](mailto:fujianglin@pjlab.org.cn), [Kaiyuan Liu](mailto:1154864382@mail.dlut.edu.cn), [Wentao Wang](mailto:wangwentao@pjlab.org.cn), [Kwan-Yee Lin](mailto:linjunyi9335@gmail.com), [Wayne Wu](mailto:wuwenyan0503@gmail.com) <br>
 **[[Video Demo]](https://www.youtube.com/watch?v=CsZKA27tQDA)** | **[[Project Page]](https://cosmicman-cvpr2024.github.io/)** | **[[Paper]](https://arxiv.org/abs/2404.01294)** | **[[Huggingface Gradio]](https://huggingface.co/spaces/cosmicman/CosmicMan-SDXL)**  
 
-**Abstract:** We present **CosmicMan**, a text-to-image foundation model specialized for generating high-fidelity human images. Unlike current general-purpose foundation models that are stuck in the dilemma of inferior quality and text-image misalignment for humans, CosmicMan enables generating photo-realistic human images with meticulous appearance, reasonable structure, and precise text-image alignment with detailed dense descriptions. <br>
-At the heart of CosmicMan's success are the new reflections and perspectives on data and model: (1) We found that data quality and a scalable data production flow are essential for the final results from trained models. Hence, we propose a new data production paradigm, **Annotate Anyone**, which serves as a perpetual data flywheel to produce high-quality data with accurate yet cost-effective annotations over time. Based on this, we constructed a large-scale dataset **CosmicMan-HQ 1.0**, with 6 Million high-quality real-world human images in a mean resolution of 1488x1255, and attached with precise text annotations deriving from 115 Million attributes in diverse granularities. (2) We argue that a text-to-image foundation model specialized for humans must be pragmatic - easy to integrate into down-streaming tasks while effective in producing high-quality human images. Hence, we propose to model the relationship between dense text descriptions and image pixels in a decomposed manner, and present **D**ecomposed-**A**ttention-**R**efocus**ing** (**Daring**) training framework. It seamlessly decomposes the cross-attention features in existing text-to-image diffusion model, and enforces attention refocusing without adding extra modules. Through Daring, we show that explicitly discretizing continuous text space into several basic groups that align with human body structure is the key to tackling the misalignment problem in a breeze. <br>
+**Abstract:** I present CosmicMan Prime, a text-to-image foundation model designed to enhance image
+generation quality through refined activation strategies. Unlike traditional models that struggle
+with suboptimal image quality and text-image misalignment, CosmicMan Prime achieves im-
+proved synthesis by optimizing activation functions, ensuring better alignment between textual
+descriptions and generated images.
+Central to CosmicMan Prime’s improvements are the modified activation strategies and data-
+driven refinements: (1) I investigate the impact of activation functions on model performance,
+proposing a shift from the standard SiLU activation to more robust alternatives. By testing
+various activation functions, I demonstrate that carefully chosen activations can significantly en-
+hance model convergence and output fidelity. This exploration provides a deeper understanding
+of how activation functions influence the relationship between text and image data. (2) I argue
+that a specialized text-to-image model must balance both architectural improvements and prac-
+tical usability. To this end, we focus on optimizing CosmicMan Prime’s underlying structure
+to enhance its ability to generate high-quality images from detailed textual descriptions. This
+model integrates the improved activation function strategies into existing architectures, ensuring
+scalability and effectiveness without requiring substantial changes to the foundational model.
+Through these refinements, CosmicMan Prime’s delivers higher-quality, more realistic images,
+while maintaining the flexibility to be used across various downstream tasks.. <br>
 
 ## Updates
 - [18/06/2024] Training code is released!
